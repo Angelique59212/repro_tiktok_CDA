@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+#logo {
+    width: 9rem;
+}
+
+#container-header {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#contain-logo , #contain-search {
+    width: 33%;
+    border: 1px solid black;
+}
+
+#contain-search input {
+    width: 13rem;
+    border-radius: 2rem;
+    background: rgba(22, 24, 35, .06);
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
