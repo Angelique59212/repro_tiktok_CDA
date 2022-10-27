@@ -4,27 +4,59 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgba(255, 255, 255, 1);
+    font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+}
+
 /* header */
 
-#logo {
-    width: 9rem;
+#container {
+    height: 3rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+
 }
 
-#container-header {
-    width: 100%;
-    border: 1px solid black;
-}
-
-#contain-logo , #contain-search {
-    width: 33%;
-    border: 1px solid black;
-}
-
-#contain-search input {
-    width: 13rem;
-    border-radius: 2rem;
+#search-account {
+    font-size: 16px;
+    width: 22rem;
+    border-radius: 1rem;
+    margin: 2rem 11rem;
+    padding: 0.8rem 0.4rem;
     background: rgba(22, 24, 35, .06);
-    margin: 0.5rem;
-    padding: 0.5rem;
+    border: none;
 }
+
+#search {
+    width: 2rem;
+    margin-left: -14rem;
+    border: none;
+    background: transparent;
+    color: rgba(98, 88, 88, 0.47);
+    border-left: 1px solid rgba(98, 88, 88, 0.47);
+}
+
+#upload, #connexion {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 16px;
+    border-radius: 0.3rem;
+}
+
+#upload {
+    width: 7rem;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #c3baba;
+}
+
+#connexion {
+    background-color: rgba(254, 44, 85, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(254, 44, 85, 1);
+}
+
 
