@@ -88,9 +88,57 @@ body {
 /* Second frame */
 
 #search-creator {
-    width: 26%;
-    display: flex;
-    align-items: center;
+    width: 22%;
     margin: 1.2rem 0 0 13rem;
     color: rgba(98, 88, 88, 0.47);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+    padding: 20px 8px 24px;
 }
+
+#connected {
+    margin-top: 1rem;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(254, 44, 85, 1);
+    border-radius: 0.3rem;
+    width: 20rem;
+    padding: 1rem;
+    color: rgba(254, 44, 85, 1);
+    font-size: 18px;
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+}
+
+/* suggested*/
+
+#suggested {
+    width: 33%;
+    padding: 16px 0;
+}
+
+#suggested p {
+    color: rgba(7, 7, 7, 0.51);
+    margin: 1rem 0 0 13rem;
+}
+
+#suggested img, #suggested a {
+    margin: 1.2rem 0 0 13rem;
+}
+
+#suggested a {
+    color: #FE2C55;
+    text-decoration: none;
+}
+
+/* About */
+
+.about {
+    width: 20%;
+    margin: 1.2rem 0 0 13rem;
+}
+
+.about  a , .about p {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgba(22, 24, 35, .5);
+}
+
+
