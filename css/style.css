@@ -59,4 +59,38 @@ body {
     border: 1px solid rgba(254, 44, 85, 1);
 }
 
+/* first frame */
 
+#community {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem;
+}
+
+#community i {
+    margin: 0.4rem;
+}
+
+#community a {
+    text-decoration: none;
+    color: #161823;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0 0 13rem;
+    font-weight: bold;
+}
+
+#community a:last-child {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+}
+
+/* Second frame */
+
+#search-creator {
+    width: 26%;
+    display: flex;
+    align-items: center;
+    margin: 1.2rem 0 0 13rem;
+    color: rgba(98, 88, 88, 0.47);
+}
